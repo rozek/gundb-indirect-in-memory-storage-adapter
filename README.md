@@ -11,6 +11,7 @@ The ids of nodes in a [GunDB](https://github.com/amark/gun) can get arbitrarily 
 Load [blueimp](https://github.com/blueimp)'s [JavaScript implementation of md5](https://github.com/blueimp/JavaScript-MD5) (or any other variant) into your web page and copy the contents of file [indirectInMemoryStorageAdapter.js](./src/indirectInMemoryStorageAdapter.js) into a `<script>` element and add it to the `<head>` section of your HTML document right after the one for GunDB itself.
 
 ```
+<script src="https://cdn.jsdelivr.net/npm/blueimp-md5/js/md5.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gun/gun.js"></script>
 <script>
   ... insert source code here
