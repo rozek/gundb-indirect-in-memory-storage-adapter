@@ -38,7 +38,7 @@ Using this approach will avoid having to deal with a single folder containg thou
 * 256 inner folders and approximately
 * NodeCount/65536 files
 
-where `NodeCount` is the total number of perseisted nodes. This calculation assumes that MD5 hashes are equally distributed (what they do pretty well)
+where `NodeCount` is the total number of persisted nodes. This calculation assumes that MD5 hashes are equally distributed (what they do pretty well)
 
 ## License ##
 
