@@ -30,7 +30,7 @@ From here, it will be quite simple to map these keys onto a file system path. He
 
 * since the MD5 hash is a string, use the first two characters as the outer folder name,
 * then use the next two characters as the name of an inner folder (within the outer one),
-* finally store the node descriptor built by the `indirectInMemoryStorageAdapter` within the inner folder under the MD5 keys as its name and (perhaps) with `.json` as the file name suffix
+* finally store the node descriptor built by the `indirectInMemoryStorageAdapter` within the inner folder under the MD5 key as its name and (perhaps) with `.json` as the file name suffix
 
 Using this approach will avoid having to deal with a single folder containg thousands or millions of files. Instead, you will end up with
 
