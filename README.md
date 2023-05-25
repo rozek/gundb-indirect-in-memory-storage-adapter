@@ -6,6 +6,8 @@ The ids of nodes in a [GunDB](https://github.com/amark/gun) can get arbitrarily 
 
 > Nota bene: do not use this adapter for anything else but a test of its underlying concept!
 
+> **Important: after two weeks of intensive work and no substantial outcome, I have decided to give up on GunDB - it is full of bugs and - even worse - race conditions and the implementation looks like being hacked in a style used 40 years ago (when source code had to be compact and variable names short in order to fit into the memory) **
+
 ## Usage ##
 
 Load [blueimp](https://github.com/blueimp)'s [JavaScript implementation of md5](https://github.com/blueimp/JavaScript-MD5) (or any other variant) into your web page and copy the contents of file [indirectInMemoryStorageAdapter.js](./src/indirectInMemoryStorageAdapter.js) into a `<script>` element and add it to the `<head>` section of your HTML document right after the one for GunDB itself.
