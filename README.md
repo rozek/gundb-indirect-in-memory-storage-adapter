@@ -6,7 +6,7 @@ The ids of nodes in a [GunDB](https://github.com/amark/gun) can get arbitrarily 
 
 > Nota bene: do not use this adapter for anything else but a test of its underlying concept!
 
-> **Important: after two weeks of intensive work and no substantial outcome, I have decided to give up on GunDB - it is full of bugs and - even worse - race conditions and the implementation looks like being hacked in a style used 40 years ago (when source code had to be compact and variable names short in order to fit into the memory) **
+> **Important: after two weeks of intensive work and no substantial outcome, I have decided to give up on GunDB - it is full of bugs and - even worse - race conditions and the implementation looks like being hacked in a style used 40 years ago (when source code had to be compact and variable names short in order to fit into the memory)**
 
 ## Usage ##
 
